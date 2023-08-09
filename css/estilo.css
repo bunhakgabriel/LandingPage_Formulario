@@ -1,0 +1,69 @@
+body{
+    font-family: sans-serif;
+    background-color: #F6CEEC;
+}
+
+div#container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.image{
+    width: 50%;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+.form{
+    width: 50%;
+    background-color: white;
+}
+
+.form form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    column-gap: 5px;
+    row-gap: 15px;
+}
+
+.form div{
+    width: 45%;
+}
+
+#day, #year{
+    width: 20%;
+}
+
+div.e-mail{
+    width: 95.5%;
+}
+
+.form div input{
+    width: 90%;
+    border-radius: 0px;
+    /*background-color: #E6E6E6;*/
+    border: none;
+    border-bottom: 1px solid black;
+    height: 25px;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+h4{
+    margin: 2px 0px 5px 2px;
+}
+
+h1{
+    margin-left: 12px;
+}
+
