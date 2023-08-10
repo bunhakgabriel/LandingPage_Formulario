@@ -48,10 +48,18 @@ div.e-mail{
 .form div input{
     width: 90%;
     border-radius: 0px;
-    /*background-color: #E6E6E6;*/
     border: none;
     border-bottom: 1px solid black;
     height: 25px;
+    font-size: 1em;
+}
+
+#day input, #year input{
+    width: 77%;
+}
+
+div.e-mail input{
+    width: 95%;
 }
 
 input:focus {
@@ -61,9 +69,44 @@ input:focus {
 
 h4{
     margin: 2px 0px 5px 2px;
+    color: darkslategrey;
 }
 
 h1{
     margin-left: 12px;
 }
 
+form div .btn1{
+    height: 30px;
+    width: 44%;
+    margin: 12px 7px 0px 0px;
+    border-radius: 10px;
+    background-color: #9932CC;
+    color: white;
+    border: none;
+    font-size: 1.1em;
+}
+
+form div .btn2{
+    width: 44%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #9932CC;
+    color: #9932CC;
+    background-color: white;
+    font-size: 1.1em;
+}
+
+form div .btn1:hover{
+    background-color: white;
+    border: 1px solid #9932CC;
+    color:  #9932CC;
+    transition: 1s;
+}
+
+form div .btn2:hover{
+    background-color: #9932CC;
+    border: 1px solid white;
+    color:  white;
+    transition: 1s;
+}
