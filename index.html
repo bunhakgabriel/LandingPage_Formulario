@@ -17,66 +17,110 @@
 
                 <h1>Cadastre-se</h1>
 
-                <form>
+                <form id="formulario">
                     
                     <div id="firstName">
                         <h4>Nome</h4>
-                        <input type="text">
+                        <input id="nome" type="text">
                     </div>
 
                     <div id="secondName">
                         <h4>Sobrenome</h4>
-                        <input type="text">
+                        <input id="sobrenome" type="text">
                     </div>
 
                     <div id="birthMonth">
                         <h4>Mês de nascimento</h4>
-                        <input type="text">
+
+                        <select id="mes">
+                            <option value="1">Janeiro</option>
+                            <option value="2">Fevereiro</option>
+                            <option value="3">Março</option>
+                            <option value="4">Abril</option>
+                            <option value="5">Maio</option>
+                            <option value="6">Junho</option>
+                            <option value="7">Julho</option>
+                            <option value="8">Agosto</option>
+                            <option value="9">Stembro</option>
+                            <option value="10">Outubro</option>
+                            <option value="11">Novembro</option>
+                            <option value="12">Dezembro</option>
+                          </select>
+
                     </div>
 
                     <div id="day">
                         <h4>Dia</h4>
-                        <input type="number">
+                        <select id="dia">
+                            <option value="1">01</option>
+                            <option value="2">02</option>
+                            <option value="3">03</option>
+                            <option value="4">04</option>
+                            <option value="5">05</option>
+                            <option value="6">06</option>
+                            <option value="7">07</option>
+                            <option value="8">08</option>
+                            <option value="9">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                          </select>
                     </div>
 
                     <div id="year">
                         <h4>Ano</h4>
-                        <input type="number">
+                        <select id="ano">
+
+                        </select>
                     </div>
 
                     <div class="e-mail">
                         <h4>Endereço de e-mail</h4>
-                        <input type="email">
+                        <input id="email" type="text" placeholder="@gmail.com">
                     </div>
 
                     <div class="e-mail">
                         <h4>Confirme endereço de e-mail</h4>
-                        <input type="email">
+                        <input id="confirmEmail" type="text">
                     </div>
 
                     <div id="password">
                         <h4>Senha</h4>
-                        <input type="password">
+                        <input id="senha" type="password" placeholder="6 a 8 caracteres">
                     </div>
 
                     <div id="confirm-password">
                         <h4>Confirme sua Senha</h4>
-                        <input type="password">
-                    </div>
-
-                    <div id="phoneNumber">
-                        <h4>Número de telefone</h4>
-                        <input type="tel">
+                        <input id="confirmSenha" type="password">
                     </div>
 
                     <div>
-                        <button class="btn1">Enviar</button>
-                        <button class="btn2">Cancelar</button>
+                        <button class="btn1">Cadastrar</button>
                     </div>
 
                 </form>
             </section>
 
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
